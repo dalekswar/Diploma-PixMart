@@ -1,4 +1,4 @@
-# Diploma-PixMart
+# Diploma PixMart
 
 This is my excellent diploma project:
 
