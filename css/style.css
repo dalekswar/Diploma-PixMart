@@ -36,3 +36,30 @@ body {
 .h4-style {
     font-size: 24px;
 }
+
+.page-content{
+    background: white;
+    position: relative;
+    z-index: 1;
+}
+.promo-content-footer{
+    background: #F0F6FD;
+    width: 1280px;
+    height: 408px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    position: relative;
+    top: -100px; /* Отрицательный отступ для перекрытия футера */
+    z-index: 2; /* Более высокий z-index для размещения над футером */
+    border-radius: 15px;
+
+}
+.page-footer{
+    background: #222222;
+}
+.page-content::after{
+    background: linear-gradient(to bottom, white 0%, white 100%);
+}
