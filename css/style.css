@@ -1,4 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    font-family: 'Plus Jakarta Sans', 'Libre Franklin', Arial, sans-serif;
+    color: #222222;
     background-color: #FFFFFF;
 }
 

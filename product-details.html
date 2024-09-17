@@ -31,13 +31,172 @@
             </ul>
         </nav>
         <div class="user-actions">
-            <button class="header-login"><img src="./img/user-icon.svg" alt="user-icon" class="icon"></button>
-            <button class="header-cart"><img src=".img/cart-icon.svg" alt="cart-icon" class="icon"></button>
+            <button class="btn btn-header-login"><img src="./img/user-icon.svg" alt="user-icon"
+                    class="user-icon"></button>
+            <button class="btn btn-header-cart"><img src=".img/cart-icon.svg" alt="cart-icon"
+                    class="cart-icon"></button>
         </div>
     </header>
 
     <main class="page-content-product-details">
+        <section class="product-details-cart">
+            <div class="product-images">
+                <img src="./img/vonix-main.jpg" alt="vonix-main" width="711" height="509" class="product-details-image">
+                <button class="btn btn-zoom"><img src="./zoom-icon.svg" alt="zoom-icon"></button>
+                <div class="product-details-slider">
+                    <button class="btn btn-prev-thumbnail">
+                        <img src="./img/prev-icon.svg" alt="previous thumbnail">
+                    </button>
+                    <div class="thumbnails">
+                        <img src="./img/thumbnail1.jpg" alt="thumbnail">
+                        <img src="./img/thumbnail2.jpg" alt="thumbnail">
+                        <img src="./img/thumbnail3.jpg" alt="thumbnail">
+                        <img src="./img/thumbnail4.jpg" alt="thumbnail">
+                    </div>
+                    <button class="btn btn-next-thumbnail">
+                        <img src="next-icon.svg" alt="next-thumbnail">
+                    </button>
+                </div>
+            </div>
+            <div class="product-details-information">
+                <h1 class="font-plus-jakarta h2-style">Vonix – Blue Yellow Modern</h1>
+                <div class="author">
+                    <img src="./img/author-avatar.jpg" alt="author-avatar" class="author-avatar">
+                    <span>Tech Pioneers</span>
+                </div>
+                <div class="license-options">
+                    <label>
+                        <input type="radio" name="license" checked>
+                        <span>Standard License</span> - $16.00
+                    </label>
+                    <label>
+                        <input type="radio" name="license">
+                        <span>Extended License</span> - $49.00
+                    </label>
+                </div>
 
+                <div class="purchase-section">
+                    <div class="quantity-selector">
+                        <button class="btn btn-decrease">-</button>
+                        <input type="text" value="1">
+                        <button class="btn btn-increase">+</button>
+                    </div>
+                    <p class="product-price">$16.00</p>
+                </div>
+
+                <div class="product-buttons">
+                    <button class="btn btn-preview">Preview</button>
+                    <button class="btn btn-purchase">Purchase Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="product-details-overview">
+            <div class="product-overview">
+                <h2 class="font-plus-jakarta h2-style">Overview</h2>
+                <p class="">With over 100+ meticulously designed components, this dashboard UI kit is your go-to
+                    resource for
+                    building intuitive, sleek, and user-friendly real estate-related websites or applications. Tailored
+                    to meet the unique demands of the tech industry, it combines functionality with cutting-edge design
+                    trends to help you launch your project with confidence and style.</p>
+
+                <h3>Pages Included:</h3>
+                <ul>
+                    <li>Dashboard Page</li>
+                    <li>Order Page</li>
+                    <li>Property Details</li>
+                    <li>Customers List</li>
+                    <li>Analytics Page</li>
+                    <li>Review Page</li>
+                </ul>
+
+                <h3>Product Features:</h3>
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>Customizable Components</li>
+                    <li>E-commerce Pages Included</li>
+                    <li>Interactive Elements</li>
+                    <li>Dark Mode Option</li>
+                    <li>Comprehensive Documentation</li>
+                </ul>
+            </div>
+            <div class="product-details">
+                <h3>Product Details</h3>
+                <ul>
+                    <li><img src="calendar-icon.svg" alt="Created"> Created: <span>September 1, 2024</span></li>
+                    <li><img src="folder-icon.svg" alt="File Size"> File Size: <span>120 MB</span></li>
+                    <li><img src="dimensions-icon.svg" alt="File Dimensions"> File Dimensions: <span>1920x1080 px</span>
+                    </li>
+                    <li><img src="compatible-app-icon.svg" alt="Compatible App"> Compatible App: <span>Figma, Sketch,
+                            Adobe XD</span></li>
+                </ul>
+
+                <h3>Product Tags</h3>
+                <div class="product-tags">
+                    <span class="tag">Text</span>
+                    <span class="tag">Startup</span>
+                    <span class="tag">UI Kit</span>
+                    <span class="tag">Modern</span>
+                    <span class="tag">Figma</span>
+                    <span class="tag">Sketch</span>
+                    <span class="tag">Adobe XD</span>
+                    <span class="tag">Responsive</span>
+                </div>
+            </div>
+        </section>
+        <section class="related-products">
+            <div class="section-header">
+                <h2>Related Products</h2>
+                <a href="#" class="explore-link">Explore All Works <img src="arrow-icon.svg" alt="Arrow"></a>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="myestate.jpg" alt="MyEstate" class="product-image">
+                    <div class="product-info">
+                        <p class="product-name">MyEstate</p>
+                        <p class="product-category">Figma Template</p>
+                        <p class="product-price">$6.00</p>
+                        <button class="add-to-cart">
+                            <img src="cart-icon.svg" alt="Add to Cart">
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="avery.jpg" alt="Avery" class="product-image">
+                    <div class="product-info">
+                        <p class="product-name">Avery</p>
+                        <p class="product-category">Presentation</p>
+                        <p class="product-price">$10.00</p>
+                        <button class="add-to-cart">
+                            <img src="cart-icon.svg" alt="Add to Cart">
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="jaxon.jpg" alt="Jaxon" class="product-image">
+                    <div class="product-info">
+                        <p class="product-name">Jaxon</p>
+                        <p class="product-category">Presentation</p>
+                        <p class="product-price">$20.00</p>
+                        <button class="add-to-cart">
+                            <img src="cart-icon.svg" alt="Add to Cart">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="onyx.jpg" alt="Onyx" class="product-image">
+                    <div class="product-info">
+                        <p class="product-name">Onyx</p>
+                        <p class="product-category">Presentation</p>
+                        <p class="product-price">$8.00</p>
+                        <button class="add-to-cart">
+                            <img src="cart-icon.svg" alt="Add to Cart">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="page-footer">
@@ -47,7 +206,7 @@
                 <p class="promo-description-footer">Explore our new exclusive digital design assets and graphic
                     collections today!</p>
                 <a href="category.html" class="promo-button-footer">Shop Now</a>
-                <img src="graphic-collections.jpg" alt="graphic-collections" class="promo-image">
+                <img src="./img/graphic-collections.jpg" alt="graphic-collections" class="promo-image">
             </div>
         </section>
         <div class="footer-main">
@@ -93,7 +252,7 @@
             <h3 class="font-plus-jakarta h3-style">Subscribe to Newsletter</h3>
             <form class="newsletter-form">
                 <input type="email" class="newsletter-input" placeholder="Enter your email address ...">
-                <button class="newsletter-button">Subscribe</button>
+                <button class="btn btn-newsletter">Subscribe</button>
             </form>
         </div>
         <div class="footer-social">
