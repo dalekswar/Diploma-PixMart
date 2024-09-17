@@ -8,6 +8,7 @@ body {
     font-family: 'Plus Jakarta Sans', 'Libre Franklin', Arial, sans-serif;
     color: #222222;
     background-color: #FFFFFF;
+    width: 1280px;
 }
 
 /*font Plus Jakarta Sans for h1-h4 */
@@ -37,12 +38,87 @@ body {
     font-size: 24px;
 }
 
-.page-content{
-    background: white;
-    position: relative;
-    z-index: 1;
+a {
+    text-decoration: none;
+    color: #222222
 }
-.promo-content-footer{
+
+/* Styles for header */
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 92px;
+    padding: 24px 80px 24px 80px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.logo,
+.page-header-nav,
+.nav-list,
+.nav-item,
+.nav-link,
+.user-actions {
+    font-family: 'Libre Franklin', Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #222222;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 800;
+    color: #0F73F6;
+}
+
+.btn-header-cart {
+    background-color: #0F73F6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.promo-content-footer {
     background: #F0F6FD;
     width: 1280px;
     height: 408px;
@@ -52,14 +128,18 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     position: relative;
-    top: -100px; /* Отрицательный отступ для перекрытия футера */
-    z-index: 2; /* Более высокий z-index для размещения над футером */
+    top: -100px;
+    /* Отрицательный отступ для перекрытия футера */
+    z-index: 2;
+    /* Более высокий z-index для размещения над футером */
     border-radius: 15px;
 
 }
-.page-footer{
+
+.page-footer {
     background: #222222;
 }
-.page-content::after{
+
+.page-content::after {
     background: linear-gradient(to bottom, white 0%, white 100%);
 }

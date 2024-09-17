@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -36,7 +41,71 @@
         </div>
     </header>
 
-    <main class="page-content-contact"></main>
+    <main class="page-content-contact">
+        <section class="contact-section">
+            <div class="contact-info">
+                <h2 class="contact-title">Get in Touch with Us</h2>
+                <p class="contact-description">We are here to help you navigate your creative journey. Reach out for any
+                    questions, support, or feedback.</p>
+
+                <ul class="contact-details">
+                    <li class="contact-item">
+                        <img src="phone-icon.svg" alt="phone-icon">
+                        <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                    </li>
+                    <li class="contact-item">
+                        <img src="email-icon.svg" alt="email-icon">
+                        <a href="mailto:support@pixmart.com">support@pixmart.com</a>
+                    </li>
+                    <li class="contact-item">
+                        <img src="clock-icon.svg" alt="clock-icon">
+                        <span>Monday to Friday: 9 AM - 5 PM EST</span>
+                    </li>
+                </ul>
+
+                <div class="contact-location">
+                    <img src="map.jpg" alt="Map of PixMart HQ">
+                    <p class="location-text">
+                        <strong>PixMart HQ</strong><br>
+                        123 Creative Ave, Design City, 45678
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <form action="#" method="post">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Amelia Robert Johnson" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="amelia.robertjohnson@pixmart.com" required>
+
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                    <option value="general-inquiry">General Inquiry</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Enter your message ..." required></textarea>
+
+                <div class="form-options">
+                    <label>
+                        <input type="checkbox" name="newsletter" value="subscribe">
+                        Subscribe me to Newsletter
+                    </label>
+                    <label>
+                        <input type="checkbox" name="terms" value="agree" required>
+                        I have read the <a href="#">User &amp; Privacy Policy</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
 
     <footer class="page-footer">
         <section class="promo-section-footer">
