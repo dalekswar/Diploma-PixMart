@@ -46,10 +46,12 @@ a {
 /* Styles for header */
 
 .page-header {
+    font-family: 'Libre Franklin', Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
     height: 92px;
     padding: 24px 80px 24px 80px;
 }
@@ -58,23 +60,10 @@ a {
     display: flex;
     gap: 30px;
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .nav-item {
     position: relative;
-}
-
-.logo,
-.page-header-nav,
-.nav-list,
-.nav-item,
-.nav-link,
-.user-actions {
-    font-family: 'Libre Franklin', Arial, sans-serif;
-    background-color: #FFFFFF;
-    color: #222222;
 }
 
 .logo-text {
@@ -87,6 +76,15 @@ a {
     background-color: #0F73F6;
 }
 
+.nav-link {
+    display: inline-flex;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
 
 
 
