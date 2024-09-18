@@ -18,8 +18,8 @@
 <body>
     <header class="page-header">
         <a href="index.html" class="logo">
-            <img src="img/logo.svg" alt="company-logo" class="logo-img">
-            <span class="logo-text">PixMart</span>
+            <!-- <img src="img/logo.svg" alt="company-logo" class="logo-img"> -->
+            <span class="logo-text">Pixmart.</span>
         </a>
         <nav class="page-header-nav">
             <ul class="nav-list">
@@ -38,101 +38,142 @@
             </ul>
         </nav>
         <div class="user-actions">
-            <button class="btn btn-header-login"><img src="./img/user-icon.svg" alt="user-icon" class="icon"></button>
-            <button class="btn btn-header-cart"><img src="./img/cart-icon.svg" alt="cart-icon" class="icon"></button>
+            <button class="btn btn-header-login"><img src="./img/user-icon.svg" alt="user-icon" class="icon" width="24"
+                    height="24"></button>
+            <button class="btn btn-header-cart"><img src="./img/cart-icon.svg" alt="cart-icon" class="icon" width="24"
+                    height="24"></button>
         </div>
     </header>
     <main class="page-content">
         <section class="hero-section">
-            <h1 class="font-plus-jakarta h1-style">Ignite Your Creativity with <span class="highlight">Premium</span>
-                Designs</h1>
-            <p class="subheadline">Discover, explore, and purchase the finest digital design assets that is tailored for
-                your needs, all within our platform.</p>
-            <form class="search-form">
-                <input type="text" class="search-input" placeholder="Find fonts, design templates, and more...">
-                <button type="submit" class="search-button">Search Now</button>
-            </form>
+            <div class="hero-section-container">
+                <h1 class="font-plus-jakarta h1-style">Ignite Your Creativity with <span
+                        class="highlight">Premium</span>
+                    Designs</h1>
+                <p class="subheadline">Discover, explore, and purchase the finest digital design assets that is tailored
+                    for
+                    your needs, all within our platform.</p>
+                <form class="search-form">
+                    <input type="text" class="main-search-input"
+                        placeholder="Find fonts, design templates, and more...">
+                    <button type="submit" class="search-button">Search Now</button>
+                </form>
+            </div>
+            <div class="hero-section-images">
+                <figure class="assets-container">
+                    <img src="./img/design-process.jpg" alt="design-process" class="design-process-image">
+                    <figcaption>Some figcaption text</figcaption>
+                </figure>
+                <figure>
+                    <img src="./img/detailed-design-process.jpg" alt="detailed-design-process"
+                        class="design-process-image">
+                    <figcaption>Some figcaption text</figcaption>
+                </figure>
+                <figure class="assets-info">
+                    <img src="./img/design-assets.jpg" alt="design-assets" class="design-assets-image">
+                    <figcaption></figcaption>
+                </figure>
+                <div class="hero-section-numbers">
+                    <span class="hero-section-numbers">10,000+ Digital Design Assets</span>
+                </div>
+            </div>
+
         </section>
-
-        <figure class="assets-container">
-            <img src="./img/design-process.jpg" alt="design-process" class="design-process-image">
-            <figcaption>Some figcaption text</figcaption>
-        </figure>
-        <figure>
-            <img src="./img/detailed-design-process.jpg" alt="detailed-design-process" class="design-process-image">
-            <figcaption>Some figcaption text</figcaption>
-        </figure>
-        <figure class="assets-info">
-            <img src="./img/design-assets.jpg" alt="design-assets" class="design-assets-image">
-            <figcaption>10,000+ Digital Design Assets</figcaption>
-        </figure>
-
         <section class="categories">
-            <h2 class="font-plus-jakarta h2-style">Categories</h2>
-            <p class="categories-subtitle">What are You Looking For Here?</p>
+            <div class="categories-title-paragraph">
+                <h2 class="font-plus-jakarta h5-style categories-title">Categories</h2>
+                <p class="categories-subtitle h2-style">What are You Looking For Here?</p>
+            </div>
+
             <div class="categories-grid">
                 <article class="category-item">
                     <a href="category.html">
-                        <img src="./img/ui-kits.jpg" alt="ui-kits-design" class="category-image">
-                        <div class="category-info">
+                        <div class="image-container">
+                            <img src="./img/ui-kits.png" alt="ui-kits-design" class="category-image" width="201"
+                                height="237">
                             <p class="category-number">01</p>
-                            <p class="category-name">UI Kits Design</p>
                         </div>
                     </a>
+                    <div class="category-info">
+                        <p class="category-name">UI Kits Design</p>
+                    </div>
                 </article>
                 <article class="category-item">
                     <a href="category.html">
-                        <img src="./img/social-media.jpg" alt="social-media" class="category-image">
-                        <div class="category-info">
+                        <div class="image-container">
+                            <img src="./img/social-media.png" alt="social-media" class="category-image" width="201"
+                                height="237">
                             <p class="category-number">02</p>
-                            <p class="category-name">Social Media</p>
                         </div>
                     </a>
+                    <div class="category-info">
+                        <p class="category-name">Social Media</p>
+                    </div>
                 </article>
+
                 <article class="category-item">
                     <a href="category.html">
-                        <img src="./img/font-design.jpg" alt="font-design" class="category-image">
-                        <div class="category-info">
+                        <div class="image-container">
+                            <img src="./img/font-design.png" alt="font-design" class="category-image" width="201"
+                                height="237">
                             <p class="category-number">03</p>
-                            <p class="category-name">Font Design</p>
                         </div>
                     </a>
+                    <div class="category-info">
+                        <p class="category-name">Font Design</p>
+                    </div>
                 </article>
+
                 <article class="category-item">
                     <a href="category.html">
-                        <img src="./img/ppt-slides.jpg" alt="ppt-slides" class="category-image">
-                        <div class="category-info">
+                        <div class="image-container">
+                            <img src="./img/ppt-slides.png" alt="ppt-slides" class="category-image" width="201"
+                                height="237">
                             <p class="category-number">04</p>
-                            <p class="category-name">PPT Slides</p>
                         </div>
                     </a>
+                    <div class="category-info">
+                        <p class="category-name">PPT Slides</p>
+                    </div>
                 </article>
+
                 <article class="category-item">
                     <a href="category.html">
-                        <img src="./img/illustration-design.jpg" alt="illustration-design" class="category-image">
-                        <div class="category-info">
+                        <div class="image-container">
+                            <img src="./img/illustration-design.png" alt="illustration-design" class="category-image"
+                                width="201" height="237">
                             <p class="category-number">05</p>
-                            <p class="category-name">Illustration Design</p>
                         </div>
                     </a>
+                    <div class="category-info">
+                        <p class="category-name">Illustration Design</p>
+                    </div>
                 </article>
+
                 <article class="category-item">
                     <a href="category.html">
-                        <img src="./img/print-template.jpg" alt="print-template" class="category-image">
-                        <div class="category-info">
+                        <div class="image-container">
+                            <img src="./img/print-template.png" alt="print-template" class="category-image" width="201"
+                                height="237">
                             <p class="category-number">06</p>
-                            <p class="category-name">Print Template</p>
                         </div>
                     </a>
+                    <div class="category-info">
+                        <p class="category-name">Print Template</p>
+                    </div>
                 </article>
             </div>
         </section>
         <section class="trending-section">
-            <h2 class="font-plus-jakarta h2-style">Trending</h2>
+            <h2 class="font-plus-jakarta h5-style trending-title">Trending</h2>
             <h2 class="font-plus-jakarta h2-style">Popular Products</h2>
-            <div class="products-grid">
+            <button class="btn popular-products-arrow"><img src="./img/arrow-left.svg" alt="arrow"
+                    class="popular-product-img"></button>
+            <button class="btn popular-products-arrow"><img src="./img/arrow-right.svg" alt="arrow"
+                    class="popular-product-img"></button>
+            <div class="products-items">
                 <article class="product-item">
-                    <img src="./img/y2k.jpg" alt="youtwok" class="product-image">
+                    <img src="./img/y2k.jpg" alt="youtwok" class="product-image" width="305" height="328">
                     <div class="product-info">
                         <h3 class="font-plus-jakarta h3-style">Y2K</h3>
                         <p class="product-description">Decorative Element &bull; Elements Set</p>
@@ -140,7 +181,7 @@
                     </div>
                 </article>
                 <article class="product-item">
-                    <img src="./img/vacasky.jpg" alt="vacasky" class="product-image">
+                    <img src="./img/vacasky.jpg" alt="vacasky" class="product-image" width="305" height="328">
                     <div class="product-info">
                         <h3 class="font-plus-jakarta h3-style">Vacasky</h3>
                         <p class="product-description">Travel &bull; UI kit</p>
@@ -148,7 +189,7 @@
                     </div>
                 </article>
                 <article class="product-item">
-                    <img src="./img/syrios.jpg" alt="syrios" class="product-image">
+                    <img src="./img/syrios.jpg" alt="syrios" class="product-image" width="305" height="328">
                     <div class="product-info">
                         <h3 class="font-plus-jakarta h3-style">Syrios</h3>
                         <p class="product-description">Modern Business &bull; Presentation</p>
@@ -156,7 +197,7 @@
                     </div>
                 </article>
                 <article class="product-item">
-                    <img src="./img/strategy.jpg" alt="strategy" class="product-image">
+                    <img src="./img/strategy.jpg" alt="strategy" class="product-image" width="305" height="328">
                     <div class="product-info">
                         <h3 class="font-plus-jakarta h3-style">Strategy</h3>
                         <p class="product-description">Media Kit &bull; Concept</p>
