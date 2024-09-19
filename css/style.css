@@ -8,7 +8,6 @@ body {
     font-family: 'Plus Jakarta Sans', 'Libre Franklin', Arial, sans-serif;
     color: #222222;
     background-color: #FFFFFF;
-    width: 1280px;
 }
 
 /*font Plus Jakarta Sans for h1-h4 */
@@ -183,21 +182,34 @@ a {
 .hero-section-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
-.assets-container {
+.design-process-image {
     grid-column: 1 / span 2;
+}
+
+.detailed-design-process-image {
+    grid-row: 2/4;
 }
 
 .hero-section-numbers {
     grid-column: 2;
     grid-row: 3;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    flex-direction: column;
     background-color: #F0F6FD;
     width: 220px;
     height: 90px;
+}
+
+.hero-section-num {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
 }
 
 /* styles for search-form */
