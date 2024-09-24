@@ -8,6 +8,19 @@ body {
     font-family: 'Plus Jakarta Sans', 'Libre Franklin', Arial, sans-serif;
     color: #222222;
     background-color: #FFFFFF;
+    min-width: 1440px;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1280px;
+    }
 }
 
 /*font Plus Jakarta Sans for h1-h4 */
@@ -49,6 +62,11 @@ body {
 a {
     text-decoration: none;
     color: #222222
+}
+
+.blue-title {
+    color: #0F73F6;
+    text-transform: uppercase;
 }
 
 /* Styles for header */
@@ -177,6 +195,8 @@ a {
 .hero-section {
     display: flex;
     margin-bottom: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .hero-section-images {
@@ -249,18 +269,12 @@ a {
 .categories {
     background-color: #F0F6FD;
     height: 970px;
-    padding: 80px, 80px, 100px, 80px;
     text-align: center;
     margin-bottom: 120px;
 }
 
 .image-container {
     position: relative;
-}
-
-.categories-title {
-    color: #0F73F6;
-    text-transform: uppercase;
 }
 
 .category-number {
@@ -285,7 +299,6 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 20px;
-    /* margin: 280px 80px 100px 80px; */
 }
 
 .categories-title-paragraph {
@@ -309,16 +322,13 @@ a {
     margin-bottom: 120px;
 }
 
-.trending-title {
-    color: #0F73F6;
-}
-
-.products-items {
+.trending-products-items {
     display: flex;
 }
 
-.product-item {
+.trending-product-item {
     margin-right: 20px;
+    flex-direction: column;
 }
 
 /* promo-section */
@@ -368,16 +378,16 @@ a {
     margin-bottom: 48px;
 }
 
-.latest-product-title {
-    color: #0F73F6;
-}
-
-.products-container {
+.latest-products-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.product-item {}
+.latest-product-item {
+    display: flex;
+}
+
+.product-details {}
 
 .product-info {}
 
@@ -385,10 +395,134 @@ a {
     color: #0F73F6;
 }
 
+.explore-link img {
+    vertical-align: middle;
+}
+
+/* staff-picks-section */
+
+.staff-picks-section {
+    margin-bottom: 120px;
+}
+
+.staff-pics-title {
+    text-align: center;
+}
+
+.staff-picks-grid {}
+
+.staff-pick-item {}
+
+/* top-creators-section */
+
+.top-creators-section {
+    margin-bottom: 120px;
+}
+
+.top-creators-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.explore-creators-link {
+    color: #0F73F6;
+}
+
+.explore-creators-link img {
+    vertical-align: middle;
+}
+
+.creators-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.creator-item {
+    width: 100%;
+    margin-right: 20px;
+    box-shadow: 0px 4px 30px 0px #1D395F0D;
+    height: 262px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.creator-image {
+    border-radius: 50%;
+}
+
+.creator-info {}
+
+.btn-creator {
+    background-color: #F0F6FD;
+    color: #0F73F6;
+    border: none;
+    border-radius: 5px;
+    height: 44px;
+    width: 192px;
+    margin-bottom: 24px;
+}
+
+/* faq-section */
+
+.faq-section {
+    margin-bottom: 120px;
+    height: 702px;
+    background-color: #F0F6FD;
+    display: flex;
+}
+
+.faq-grid {
+    margin: 80px 122px 80px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq-item {
+    background-color: #FFFFFF;
+    border: 1px solid #dfe4f0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+
+}
+
+.faq-question {
+    list-style-type: none;
+    height: 35px;
+    width: 500px;
+}
+
+.faq-titles {
+    margin-top: 80px;
+}
+
+.faq-answer {}
+
+.btn-faq {}
+
+/* blog-section */
+
+.blog-section {
+    margin-bottom: 120px;
+}
+
+.blog-item {}
+
+.blog-info {}
+
 /* styles for footer */
 .promo-content-footer {
     background: #F0F6FD;
-    width: 1280px;
     height: 408px;
     gap: 0px;
     border-radius: 20px 0px 0px 0px;
@@ -396,7 +530,7 @@ a {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     position: relative;
-    top: -100px;
+    top: 200px;
     z-index: 2;
     border-radius: 15px;
 }
