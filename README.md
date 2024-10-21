@@ -1,9 +1,9 @@
-# Diploma PixMart
+# Diploma-PixMart
 
-This is my excellent diploma project:
+## Description
 
-The website consists of many pages and will offer numerous functions in two months.
+Many pages site with **HTML5** and **CSS3** from BroAcademy Frontend Basics course
 
-- Home-page Markup: 99%
-- CSS: Not started
-- JS: Not started
+## The next step
+
+JavaScript 
