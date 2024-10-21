@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="page-header">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Pixmart.</span>
+            </a>
+            <nav class="page-header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">Products<img src="./img/drop-down-icon.svg"
+                                alt="drop-down-icon" class="drop-down-icon"></a>
+                        <ul class="dropdown">
+                            <li><a href="./category.html" class="dropdown-link">Categories</a></li>
+                            <li><a href="./product-details.html" class="dropdown-link">Product Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="creators.html" class="nav-link">Creators</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <form action="" class="header-search-form" method="GET">
+                <input type="text" class="search-input" placeholder="Search for Digital Assets">
+                <button type="submit" class="btn btn-search">
+                    <img src="./img/search-icon.svg" alt="search" class="search-icon">
+                </button>
+            </form>
+            <div class="user-actions">
+                <button class="btn btn-category-header-cart"><img src="./img/category-cart-icon.svg" alt="cart-icon"
+                        class="icon" width="44" height="44"></button>
+            </div>
+        </header>
+        <main class="page-content-category">
+            <h1 class="font-plus-jakarta h1-style">Explore Top
+                <span class="highlight">UI Kits </span>Design Assets
+            </h1>
+            <form action="" class="category-form">
+                <aside class="sidebar">
+                    <div class="filter-category">
+                        <h2 class="font-plus-jakarta h4-style">Categories</h2>
+                        <ul class="category-list">
+                            <li><input type="checkbox" id="technology"> <label for="technology">Technology</label></li>
+                            <li><input type="checkbox" id="travel"> <label for="travel">Travel &amp; Tourism</label>
+                            </li>
+                            <li><input type="checkbox" id="health"> <label for="health">Health &amp; Fitness</label>
+                            </li>
+                            <li><input type="checkbox" id="ecommerce"> <label for="ecommerce">E-Commerce</label></li>
+                            <li><input type="checkbox" id="education"> <label for="education">Education</label></li>
+                            <li><input type="checkbox" id="entertainment"> <label
+                                    for="entertainment">Entertainment</label>
+                            </li>
+                            <li><input type="checkbox" id="others"> <label for="others">Others</label></li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-format">
+                        <h2 class="font-plus-jakarta h4-style">Format Type</h2>
+                        <ul>
+                            <li><input type="checkbox" id="figma"> <label for="figma">Figma</label></li>
+                            <li><input type="checkbox" id="sketch"> <label for="sketch">Sketch</label></li>
+                            <li><input type="checkbox" id="adobe-xd"> <label for="adobe-xd">Adobe XD</label></li>
+                            <li><input type="checkbox" id="photoshop"> <label for="photoshop">Photoshop</label></li>
+                            <li><input type="checkbox" id="illustrator"> <label for="illustrator">Adobe
+                                    Illustrator</label>
+                            </li>
+                            <li><input type="checkbox" id="others-format"> <label for="others-format">Others</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-style">
+                        <h2 class="font-plus-jakarta h4-style">Style</h2>
+                        <ul>
+                            <li><input type="checkbox" id="minimalist"> <label for="minimalist">Minimalist</label></li>
+                            <li><input type="checkbox" id="modern"> <label for="modern">Modern</label></li>
+                            <li><input type="checkbox" id="playful"> <label for="playful">Playful</label></li>
+                            <li><input type="checkbox" id="dark-mode"> <label for="dark-mode">Dark Mode</label></li>
+                            <li><input type="checkbox" id="photocentric"> <label for="photocentric">Photocentric</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-price">
+                        <h2 class="font-plus-jakarta h4-style">Price</h2>
+                        <input type="range" min="5" max="50" value="25" class="price-slider">
+                        <div>Price range: $5 - $50</div>
+                        <a href="#" class="clear-filters">Clear all filters</a>
+                    </div>
+                </aside>
+            </form>
+            <section class="toolbar">
+                <!-- choose category -->
+                <div class="category-select">
+                    <button class="btn btn-category">
+                        UI Kit
+                        <span class="clear-category">✕</span>
+                    </button>
+                </div>
+
+                <!-- sort -->
+                <div class="sort-select">
+                    <label for="sort-by">Sort by</label>
+                    <select id="sort-by" name="sort-by">
+                        <option value="best-seller">Best Seller</option>
+                        <option value="newest">Newest</option>
+                        <option value="price-low-high">Price: Low to High</option>
+                        <option value="price-high-low">Price: High to Low</option>
+                    </select>
+                </div>
+
+                <!-- show result -->
+                <div class="results-count">
+                    <span>Showing 12 out of 120 results.</span>
+                </div>
+
+                <!-- choose view-->
+                <div class="view-options">
+                    <button class="btn btn-view-grid">
+                        <img src="./img/grid-icon.svg" alt="grid-icon" class="grid-icon">
+                    </button>
+                    <button class="btn btn-view-list">
+                        <img src="./imglist-icon.svg" alt="list-view" class="grid-icon">
+                    </button>
+                </div>
+            </section>
+            <section class="category-cards">
+                <article class="category-cards-item">
+                    <a href="./product-details.html" class="category-item-link">
+                        <img src="./img/ezmart.jpg" alt="ezmart" class="category-img" width="302" height="260">
+                    </a>
+                    <div class="product-info">
+                        <a href="./product-details.html">
+                            <p class="product-name">EzMart</p>
+                        </a>
+                        <p class="item-title">Figma Template</p>
+                    </div>
+                    <div class="product-actions">
+                        <p class="product-price">$11.00</p>
+                        <button class="btn btn-add-to-cart">
+                            <img src="./img/cart-icon.svg" alt="add-to-cart">
+                        </button>
+                    </div>
+                </article>
+                <article class="category-cards-item">
+                    <a href="./product-details.html" class="category-item-link">
+                        <img src="./img/schoolhub.jpg" alt="schoolhub" class="category-img" width="302" height="260">
+                    </a>
+                    <div class="product-info">
+                        <a href="./product-details.html">
+                            <p class="product-name">SchoolHub</p>
+                        </a>
+                        <p class="item-title">Figma Template</p>
+
+                    </div>
+                    <div class="product-actions">
+                        <p class="product-price">$6.00</p>
+                        <button class="btn btn-add-to-cart">
+                            <img src="./img/cart-icon.svg" alt="add-to-cart">
+                        </button>
+                    </div>
+                </article>
+                <article class="category-cards-item">
+                    <a href="./product-details.html" class="category-item-link">
+                        <img src="./img/kidztar.jpg" alt="kidztar" class="category-img" width="302" height="260">
+                    </a>
+                    <div class="product-info">
+                        <a href="./product-details.html">
+                            <p class="product-name">Kidztar</p>
+                        </a>
+                        <p class="item-title">Figma Template</p>
+
+                    </div>
+                    <div class="product-actions">
+                        <p class="product-price">$20.00</p>
+                        <button class="btn btn-add-to-cart">
+                            <img src="./img/cart-icon.svg" alt="add-to-cart">
+                        </button>
+                    </div>
+                </article>
+            </section>
+            <section class="pagination-container">
+                <button class="btn btn-pagination-prev">
+                    <img src="./img/prev-icon.svg" alt="previous">
+                </button>
+
+                <ul class="pagination-list">
+                    <li><a href="#" class="active">01</a></li>
+                    <li><a href="#">02</a></li>
+                    <li><a href="#">03</a></li>
+                    <li><span>...</span></li>
+                    <li><a href="#">10</a></li>
+                </ul>
+
+                <button class="btn btn-pagination-button-next">
+                    <img src="./img/next-icon.svg" alt="next">
+                </button>
+            </section>
+            <section class="category-hero-section">
+                <h2 class="font-plus-jakarta h2-style">Product</h2>
+                <h2 class="font-plus-jakarta h2-style">Elevate Your Project
+                    with Premium Digital Assets</h2>
+                <button class="btn btn-blue">Shop Now</button>
+            </section>
+        </main>
+        <footer class="page-category-footer">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <h2 class="font-plus-jakarta h2-style">Pixmart.</h2>
+                    <p class="footer-description">Your premium digital assets solution with high quality and
+                        comprehensive
+                        range of products and services.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 class="font-plus-jakarta h3-style">Company</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="./index.html" class="footer-link">Homepage v3</a></li>
+                            <li class="footer-item"><a href="about.html" class="footer-link">About Us</a></li>
+                            <li class="footer-item"><a href="blog.html" class="footer-link">Blog Articles</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="font-plus-jakarta h3-style">Products</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="#" class="footer-link">Website</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Mobile App</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Social Media Feeds</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Presentation</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Product Mockups</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Illustrations</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="font-plus-jakarta h3-style">Account</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="cart.html" class="footer-link">Your Cart</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Check Out</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Refund Policy</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Company Policy</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Send A Message</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Customer Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link">TW</a>
+                <a href="#" class="social-link">IG</a>
+                <a href="#" class="social-link">FB</a>
+            </div>
+            <div class="footer-newsletter">
+                <h3 class="font-plus-jakarta h3-style">Subscribe to Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Enter your email address ...">
+                    <button class="btn btn-newsletter-button">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-bottom">
+                <ul class="footer-bottom-links">
+                    <li class="footer-bottom-item"><a href="#" class="footer-bottom-link">Privacy Policy</a></li>
+                    <li class="footer-bottom-item"><a href="#" class="footer-bottom-link">Terms and Condition</a></li>
+                    <li class="footer-bottom-item"><a href="#" class="footer-bottom-link">Site Map</a></li>
+                </ul>
+                <p class="footer-copy">Copyright &copy; 2024 Pixmart. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

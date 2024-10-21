@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixMart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<!-- Homepage v3 -->
+
+<body>
+    <div class="container">
+        <header class="page-header">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Pixmart.</span>
+            </a>
+            <nav class="page-header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">Products<img src="./img/drop-down-icon.svg"
+                                alt="drop-down-icon" class="drop-down-icon"></a>
+                        <ul class="dropdown">
+                            <li><a href="category.html" class="dropdown-link">Categories</a></li>
+                            <li><a href="product-details.html" class="dropdown-link">Product Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="creators.html" class="nav-link">Creators</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <button class="btn btn-header-login"><img src="./img/user-icon.svg" alt="user-icon" class="icon"
+                        width="24" height="24"></button>
+                <button class="btn btn-header-cart"><img src="./img/cart-icon.svg" alt="cart-icon" class="icon"
+                        width="24" height="24"></button>
+            </div>
+        </header>
+        <main class="page-content">
+            <section class="hero-section">
+                <div class="hero-section-container">
+                    <h1 class="font-plus-jakarta h1-style">Ignite Your Creativity with <span
+                            class="highlight">Premium</span>
+                        Designs</h1>
+                    <p class="subheadline">Discover, explore, and purchase the finest digital design assets that is
+                        tailored
+                        for
+                        your needs, all within our platform.</p>
+                    <form class="search-form">
+                        <input type="text" class="main-search-input"
+                            placeholder="Find fonts, design templates, and more...">
+                        <button type="submit" class="search-button">Search Now</button>
+                    </form>
+                </div>
+                <div class="hero-section-images">
+                    <img src="./img/design-process.jpg" alt="design-process" class="design-process-image">
+                    <img src="./img/detailed-design-process.jpg" alt="detailed-design-process"
+                        class="detailed-design-process-image">
+                    <img src="./img/design-assets.jpg" alt="design-assets" class="design-assets-image">
+                    <div class="hero-section-numbers">
+                        <span class="hero-section-num">10,000+</span>
+                        <span class="hero-section-text">Digital Design Assets</span>
+                    </div>
+                </div>
+            </section>
+            <section class="categories">
+                <div class="categories-title-paragraph">
+                    <h2 class="font-libre-franklin h5-style blue-title">Categories</h2>
+                    <p class="categories-subtitle h2-style">What are You Looking For Here?</p>
+                </div>
+
+                <div class="categories-grid">
+                    <article class="category-item">
+                        <a href="category.html">
+                            <div class="image-container">
+                                <img src="./img/ui-kits.png" alt="ui-kits-design" class="category-image" width="201"
+                                    height="237">
+                                <p class="category-number">01</p>
+                            </div>
+                        </a>
+                        <div class="category-info">
+                            <p class="category-name">UI Kits Design</p>
+                        </div>
+                    </article>
+                    <article class="category-item">
+                        <a href="category.html">
+                            <div class="image-container">
+                                <img src="./img/social-media.png" alt="social-media" class="category-image" width="201"
+                                    height="237">
+                                <p class="category-number">02</p>
+                            </div>
+                        </a>
+                        <div class="category-info">
+                            <p class="category-name">Social Media</p>
+                        </div>
+                    </article>
+
+                    <article class="category-item">
+                        <a href="category.html">
+                            <div class="image-container">
+                                <img src="./img/font-design.png" alt="font-design" class="category-image" width="201"
+                                    height="237">
+                                <p class="category-number">03</p>
+                            </div>
+                        </a>
+                        <div class="category-info">
+                            <p class="category-name">Font Design</p>
+                        </div>
+                    </article>
+
+                    <article class="category-item">
+                        <a href="category.html">
+                            <div class="image-container">
+                                <img src="./img/ppt-slides.png" alt="ppt-slides" class="category-image" width="201"
+                                    height="237">
+                                <p class="category-number">04</p>
+                            </div>
+                        </a>
+                        <div class="category-info">
+                            <p class="category-name">PPT Slides</p>
+                        </div>
+                    </article>
+
+                    <article class="category-item">
+                        <a href="category.html">
+                            <div class="image-container">
+                                <img src="./img/illustration-design.png" alt="illustration-design"
+                                    class="category-image" width="201" height="237">
+                                <p class="category-number">05</p>
+                            </div>
+                        </a>
+                        <div class="category-info">
+                            <p class="category-name">Illustration Design</p>
+                        </div>
+                    </article>
+
+                    <article class="category-item">
+                        <a href="category.html">
+                            <div class="image-container">
+                                <img src="./img/print-template.png" alt="print-template" class="category-image"
+                                    width="201" height="237">
+                                <p class="category-number">06</p>
+                            </div>
+                        </a>
+                        <div class="category-info">
+                            <p class="category-name">Print Template</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="trending-section">
+                <h2 class="font-plus-jakarta h5-style blue-title">Trending</h2>
+                <p class="font-plus-jakarta h2-style">Popular Products</p>
+                <button class="btn popular-products-arrow"><img src="./img/arrow-left.svg" alt="arrow"
+                        class="popular-product-img"></button>
+                <button class="btn popular-products-arrow"><img src="./img/arrow-right.svg" alt="arrow"
+                        class="popular-product-img"></button>
+                <div class="trending-products-items">
+                    <article class="trending-product-item">
+                        <img src="./img/y2k.jpg" alt="youtwok" class="product-image" width="305" height="328">
+                        <div class="product-info">
+                            <h3 class="font-plus-jakarta h3-style">Y2K</h3>
+                            <p class="product-price">$12.00</p>
+                            <p class="product-description">Decorative Element &bull; Elements Set</p>
+                        </div>
+                    </article>
+                    <article class="trending-product-item">
+                        <img src="./img/vacasky.jpg" alt="vacasky" class="product-image" width="305" height="328">
+                        <div class="product-info">
+                            <h3 class="font-plus-jakarta h3-style">Vacasky</h3>
+                            <p class="product-price">$8.00</p>
+                            <p class="product-description">Travel &bull; UI kit</p>
+                        </div>
+                    </article>
+                    <article class="trending-product-item">
+                        <img src="./img/syrios.jpg" alt="syrios" class="product-image" width="305" height="328">
+                        <div class="product-info">
+                            <h3 class="font-plus-jakarta h3-style">Syrios</h3>
+                            <p class="product-price">$10.00</p>
+                            <p class="product-description">Modern Business &bull; Presentation</p>
+                        </div>
+                    </article>
+                    <article class="trending-product-item">
+                        <img src="./img/strategy.jpg" alt="strategy" class="product-image" width="305" height="328">
+                        <div class="product-info">
+                            <h3 class="font-plus-jakarta h3-style">Strategy</h3>
+                            <p class="product-price">$16.00</p>
+                            <p class="product-description">Media Kit &bull; Concept</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="promo-section">
+                <div class="promo-content">
+                    <div class="promo-text">
+                        <h2 class="font-plus-jakarta h2-style ">New Week, New Designs</h2>
+                        <p class="promo-description">Enjoy a special 15% discount on all our Design Assets for our
+                            weekly
+                            collection, available right away within this month promotion.</p>
+                        <a href="./category.html" class="promo-button">Shop Now</a>
+                    </div>
+                    <div class="promo-images">
+                        <img src="./img/designs-collection.jpg" alt="designs-collection" class="promo-image">
+                    </div>
+                </div>
+                <aside class="referral-section">
+                    <h2 class="font-plus-jakarta h2-style">Refer A Friend, Earn A Reward!</h2>
+                    <button class="btn btn-referral">Get Your Code</button>
+                </aside>
+            </section>
+
+            <section class="latest-products-section">
+                <h2 class="font-plus-jakarta h5-style blue-title">New Release</h2>
+                <div class="latest-products-text">
+                    <p class="font-plus-jakarta h2-style">Latest Products</p>
+                    <a href="#" class="explore-link">Explore Latest Works <img src="./img/arrow-right.svg" alt=""
+                            width="16" height="16">
+                    </a>
+                </div>
+
+                <div class="latest-products-container">
+                    <article class="latest-product-item">
+                        <img src="./img/skyhomes.png" alt="sky-homes" class="product-image" width="160" height="160">
+                        <div class="product-info">
+                            <h3 class="font-plus-jakarta h3-style">SkyHomes</h3>
+                            <p class="product-category">Landing Page</p>
+                            <p class="product-price">$6.00</p>
+                            <button class="btn btn-product-cart"><img src="./img/cart-icon.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="latest-product-item">
+                        <img src="./img/business-instagram.jpg" alt="business-instagram" class="product-image">
+                        <div class="product-info">
+                            <h3 class="font-plus-jakarta h3-style">Business Instagram</h3>
+                            <p class="product-category">Canva</p>
+                            <p class="product-price">$10.00</p>
+                            <button class="btn btn-product-cart"><img src="./img/cart-icon.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="latest-product-item">
+                        <img src="./img/vonix.jpg" alt="vonix" class="product-image">
+                        <div class="product-info">
+                            <h3 class="font-plus-jakarta h3-style">Vonix</h3>
+                            <p class="product-category">Presentation</p>
+                            <p class="product-price">$20.00</p>
+                            <button class="btn btn-product-cart"><img src="./img/cart-icon.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="latest-product-item">
+                        <img src="./img/myestate.jpg" alt="my-estate" class="product-image">
+                        <div class="product-info">
+                            <h3 class="font-plus-jakarta h3-style">MyEstate</h3>
+                            <p class="product-category">Figma Template</p>
+                            <p class="product-price">$8.00</p>
+                            <button class="btn btn-product-cart"><img src="./img/cart-icon.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="latest-product-item">
+                        <img src="./img/elegant.jpg" alt="elegant" class="product-image">
+                        <div class="product-info">
+                            <h3 class="font-plus-jakarta h3./img/-style">Elegant</h3>
+                            <p class="product-category">Instagram Template</p>
+                            <p class="product-price">$12.00</p>
+                            <button class="btn btn-product-cart"><img src="./img/cart-icon.svg" alt=""></button>
+                        </div>
+                    </article>
+                    <article class="latest-product-item">
+                        <img src="./img/avery.jpg" alt="avery" class="product-image">
+                        <div class="product-info">
+                            <h3 class="font-plus-jakarta h3-style">Avery</h3>
+                            <p class="product-category">Presentation</p>
+                            <p class="product-price">$6.00</p>
+                            <button class="btn btn-product-cart"><img src="./img/cart-icon.svg" alt=""></button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="staff-picks-section">
+                <div class="staff-pics-title">
+                    <h2 class="font-libre-franklin h5-style blue-title">Staff Picks</h2>
+                    <p class="staff-picks-subtitle h2-style">Best Design Works Curated by Our Experts</p>
+                </div>
+
+                <div class="staff-picks-grid">
+                    <article class="staff-pick-item">
+                        <p class="staff-pick-number">02</p>
+                        <h3 class="font-plus-jakarta h3-style">PetroLink</h3>
+                        <p class="staff-pick-category">Business &bull; Figma Template</p>
+                    </article>
+                    <article class="staff-pick-item">
+                        <p class="staff-pick-number">01</p>
+                        <h3 class="font-plus-jakarta h3-style">Glowieng</h3>
+                        <p class="staff-pick-category">Freelancer &amp; Project Marketplace &bull; Figma
+                            Template
+                        </p>
+                        <button class="btn btn-bucket"><img src="./img/glowieng.svg" alt="glowieng"
+                                class="staff-pick-image"></button>
+                    </article>
+                    <article class="staff-pick-item">
+                        <p class="staff-pick-number">03</p>
+                        <h3 class="font-plus-jakarta h3-style">Sparkr</h3>
+                        <p class="staff-pick-category">Business Plan &bull; Figma Template</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="top-creators-section">
+                <h2 class="font-libre-franklin h5-style blue-title">Creators</h2>
+                <div class="top-creators-container">
+                    <h3 class="font-plus-jakarta h2-style">Top Creators</h3>
+                    <a href="#" class="explore-creators-link">Explore All Creators<img src="./img/arrow-right.svg"
+                            alt="" width="16" height="16"></a>
+                </div>
+                <div class="creators-grid">
+                    <article class="creator-item">
+                        <img src="./img/creators-1.jpg" alt="text" class="creator-image" width="80" height="80">
+                        <div class="creator-info">
+                            <h4 class="font-plus-jakarta h4-style">Text</h4>
+                            <p class="creator-works">120+ Works</p>
+                            <button class="btn btn-creator">Text</button>
+                        </div>
+                    </article>
+                    <article class="creator-item">
+                        <img src="./img/code-wizards.jpg" alt="code-wizards" class="creator-image">
+                        <div class="creator-info">
+                            <h4 class="font-plus-jakarta h4-style">Code Wizards</h4>
+                            <p class="creator-works">80+ Works</p>
+                            <button class="btn btn-creator">Text</button>
+                        </div>
+                    </article>
+                    <article class="creator-item">
+                        <img src="./img/pixel-perfect.jpg" alt="pixel-perfect" class="creator-image">
+                        <div class="creator-info">
+                            <h4 class="font-plus-jakarta h4-style">Pixel Perfect</h4>
+                            <p class="creator-works">200+ Works</p>
+                            <button class="btn btn-creator">Text</button>
+                        </div>
+                    </article>
+                    <article class="creator-item">
+                        <img src="./img/animate-canvas.jpg" alt="animate-canvas" class="creator-image">
+                        <div class="creator-info">
+                            <h4 class="font-plus-jakarta h4-style">Animate Canvas</h4>
+                            <p class="creator-works">60+ Works</p>
+                            <button class="btn btn-creator">Text</button>
+                        </div>
+                    </article>
+                    <article class="creator-item">
+                        <img src="./img/modernist-logos.jpg" alt="modernist-logos" class="creator-image">
+                        <div class="creator-info">
+                            <h4 class="font-plus-jakarta h4-style">Modernist Logos</h4>
+                            <p class="creator-works">150+ Works</p>
+                            <button class="btn btn-creator">Text</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="faq-section">
+
+                <div class="faq-grid">
+                    <details class="faq-item">
+                        <summary class="faq-question">Can I request a refund?<img src="./img/drop-down-icon.svg" alt=""
+                                class="faq-icon" width="16" height="16">
+                        </summary>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question active">How do I access my purchased products?<img
+                                src="./img/arrow-up.svg" alt="" class="faq-icon" width="16" height="16"></summary>
+                        <div class="faq-answer">
+                            <p class="faq-text">Accessing your purchased products is seamless and hassle-free on our
+                                digital
+                                design
+                                assets
+                                marketplace. Simply log in to your account, navigate to the 'My Purchases' section,
+                                and
+                                you'll find all your purchased products ready for download.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Are there any discounts for bulk purchases?<img
+                                src="./img/drop-down-icon.svg" alt="" class="faq-icon" width="16" height="16"></summary>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">What payment methods do you accept here?<img
+                                src="./img/drop-down-icon.svg" alt="" class="faq-icon" width="16" height="16"></summary>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Can I sell my digital products on this marketplace?<img
+                                src="./img/drop-down-icon.svg" alt="" class="faq-icon" width="16" height="16"></summary>
+                    </details>
+                </div>
+                <div class="faq-titles">
+                    <h2 class="font-libre-franklin h5-style blue-title">F.A.Q</h2>
+                    <h3 class="font-plus-jakarta h3-style">Answers to Your Questions</h3>
+                    <button class="btn btn-faq">Ask Us A Question</button>
+                </div>
+
+            </section>
+            <section class="blog-section">
+                <h2 class="font-libre-franklin h5-style blue-title">Blog</h2>
+                <h3 class="font-plus-jakarta h3-style">Latest Expert Design Tips &amp; Insights</h3>
+                <!-- <div class="blog-grid"> -->
+                <article class="blog-item">
+                    <img src="./img/dark-mode-ui.jpg" alt="dar-mode-design" class="blog-image">
+                    <div class="blog-info">
+                        <p class="blog-tag">Typography</p>
+                        <h4 class="font-plus-jakarta h4-style">Best Practice for Dark Mode UI Design: 5 Reasons for Its
+                            Increased
+                            Popularity</h4>
+                        <time datetime="2024-04-05">5 April 2024</time>
+                    </div>
+                </article>
+                <article class="blog-item">
+                    <img src="./img/color-inspirations.jpg" alt="color-inspirations" class="blog-image">
+                    <div class="blog-info">
+                        <span class="blog-tag">UI/UX Design</span>
+                        <h4 class="font-plus-jakarta h4-style">Looking for Color Inspirations for Your Food Business?
+                        </h4>
+                        <p class="blog-date">
+                            <time datetime="2024-03-16">16 March 2024</time>
+                        </p>
+                    </div>
+                </article>
+                <article class="blog-item">
+                    <img src="./img/dental-presentation.jpg" alt="recommended-presentation-templates"
+                        class="blog-image">
+                    <div class="blog-info">
+                        <span class="blog-tag">Typography</span>
+                        <h4 class="font-plus-jakarta h4-style">6 Most Recommended Dental Presentation Templates</h4>
+                        <p class="blog-date">
+                            <time datetime="2024-02-27">27 February 2024</time>
+                        </p>
+                    </div>
+                </article>
+                <!-- </div> -->
+                <div class="pagination">
+                    <button class="btn btn-pagination"></button>
+                    <button class="btn btn-pagination"></button>
+                    <button class="btn btn-pagination"></button>
+                </div>
+            </section>
+            <section class="promo-section-footer">
+                <div class="promo-content-footer">
+                    <h2 class="font-plus-jakarta h2-style">Bring Your Creativity Alive</h2>
+                    <p class="promo-description-footer">Explore our new exclusive digital design assets and graphic
+                        collections today!</p>
+                    <a href="category.html" class="promo-button-footer">Shop Now</a>
+                    <img src="./img/graphic-collections.jpg" alt="graphic-collections" class="promo-image">
+                </div>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <!-- <section class="promo-section-footer">
+                <div class="promo-content-footer">
+                    <h2 class="font-plus-jakarta h2-style">Bring Your Creativity Alive</h2>
+                    <p class="promo-description-footer">Explore our new exclusive digital design assets and graphic
+                        collections today!</p>
+                    <a href="category.html" class="promo-button-footer">Shop Now</a>
+                    <img src="graphic-collections.jpg" alt="graphic-collections" class="promo-image">
+                </div>
+            </section> -->
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <h2 class="font-plus-jakarta h2-style">Pixmart.</h2>
+                    <p class="footer-description">Your premium digital assets solution with high quality and
+                        comprehensive
+                        range of products and services.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 class="font-plus-jakarta h3-style">Company</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="./index.html" class="footer-link">Homepage v3</a></li>
+                            <li class="footer-item"><a href="about.html" class="footer-link">About Us</a></li>
+                            <li class="footer-item"><a href="blog.html" class="footer-link">Blog Articles</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="font-plus-jakarta h3-style">Products</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="#" class="footer-link">Website</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Mobile App</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Social Media Feeds</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Presentation</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Product Mockups</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Illustrations</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="font-plus-jakarta h3-style">Account</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="cart.html" class="footer-link">Your Cart</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Check Out</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Refund Policy</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Company Policy</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Send A Message</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Customer Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <h3 class="font-plus-jakarta h3-style">Subscribe to Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Enter your email address ...">
+                    <button class="btn btn-newsletter">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-social">
+                <h3 class="font-plus-jakarta h3-style">Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">TW</a>
+                    <a href="#" class="social-link">IG</a>
+                    <a href="#" class="social-link">FB</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <ul class="footer-bottom-links">
+                    <li class="footer-bottom-item"><a href="#" class="footer-bottom-link">Privacy Policy</a></li>
+                    <li class="footer-bottom-item"><a href="#" class="footer-bottom-link">Terms and Condition</a></li>
+                    <li class="footer-bottom-item"><a href="#" class="footer-bottom-link">Site Map</a></li>
+                </ul>
+                <p class="footer-copy">Copyright &copy; 2024 Pixmart. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

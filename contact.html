@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="page-header">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Pixmart.</span>
+            </a>
+            <nav class="page-header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">Products<img src="./img/drop-down-icon.svg"
+                                alt="drop-down-icon" class="drop-down-icon"></a>
+                        <ul class="dropdown">
+                            <li><a href="./category.html" class="dropdown-link">Categories</a></li>
+                            <li><a href="./product-details.html" class="dropdown-link">Product Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="creators.html" class="nav-link">Creators</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <button class="btn btn-header-login"><img src="./img/user-icon.svg" alt="user-icon"
+                        class="icon"></button>
+                <button class="btn btn-header-cart"><img src="./img/cart-icon.svg" alt="cart-icon"
+                        class="icon"></button>
+            </div>
+        </header>
+
+        <main class="page-content-contact">
+            <section class="contact-section">
+                <div class="contact-info">
+                    <h2 class="contact-title">Get in Touch with Us</h2>
+                    <p class="contact-description">We are here to help you navigate your creative journey. Reach out for
+                        any
+                        questions, support, or feedback.</p>
+
+                    <ul class="contact-details">
+                        <li class="contact-item">
+                            <img src="phone-icon.svg" alt="phone-icon">
+                            <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                        </li>
+                        <li class="contact-item">
+                            <img src="email-icon.svg" alt="email-icon">
+                            <a href="mailto:support@pixmart.com">support@pixmart.com</a>
+                        </li>
+                        <li class="contact-item">
+                            <img src="clock-icon.svg" alt="clock-icon">
+                            <span>Monday to Friday: 9 AM - 5 PM EST</span>
+                        </li>
+                    </ul>
+
+                    <div class="contact-location">
+                        <img src="map.jpg" alt="Map of PixMart HQ">
+                        <p class="location-text">
+                            <strong>PixMart HQ</strong><br>
+                            123 Creative Ave, Design City, 45678
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="form">
+                <form action="#" method="post">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Amelia Robert Johnson" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="amelia.robertjohnson@pixmart.com" required>
+
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" required>
+                        <option value="general-inquiry">General Inquiry</option>
+                        <option value="support">Support</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Enter your message ..." required></textarea>
+
+                    <div class="form-options">
+                        <label>
+                            <input type="checkbox" name="newsletter" value="subscribe">
+                            Subscribe me to Newsletter
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terms" value="agree" required>
+                            I have read the <a href="#">User &amp; Privacy Policy</a>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+            </section>
+
+        </main>
+
+        <footer class="page-footer">
+            <section class="promo-section-footer">
+                <div class="promo-content-footer">
+                    <h2 class="font-plus-jakarta h2-style">Bring Your Creativity Alive</h2>
+                    <p class="promo-description-footer">Explore our new exclusive digital design assets and graphic
+                        collections today!</p>
+                    <a href="category.html" class="promo-button-footer">Shop Now</a>
+                    <img src="graphic-collections.jpg" alt="graphic-collections" class="promo-image">
+                </div>
+            </section>
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <h2 class="font-plus-jakarta h2-style">Pixmart.</h2>
+                    <p class="footer-description">Your premium digital assets solution with high quality and
+                        comprehensive
+                        range of products and services.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 class="font-plus-jakarta h3-style">Company</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="./index.html" class="footer-link">Homepage v3</a></li>
+                            <li class="footer-item"><a href="about.html" class="footer-link">About Us</a></li>
+                            <li class="footer-item"><a href="blog.html" class="footer-link">Blog Articles</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="font-plus-jakarta h3-style">Products</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="#" class="footer-link">Website</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Mobile App</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Social Media Feeds</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Presentation</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Product Mockups</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Illustrations</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="font-plus-jakarta h3-style">Account</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="cart.html" class="footer-link">Your Cart</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Check Out</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Refund Policy</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Company Policy</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Send A Message</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Customer Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <h3 class="font-plus-jakarta h3-style">Subscribe to Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Enter your email address ...">
+                    <button class="newsletter-button">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-social">
+                <h3 class="font-plus-jakarta h3-style">Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">TW</a>
+                    <a href="#" class="social-link">IG</a>
+                    <a href="#" class="social-link">FB</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <ul class="footer-bottom-links">
+                    <li class="footer-bottom-item"><a href="#" class="footer-bottom-link">Privacy Policy</a></li>
+                    <li class="footer-bottom-item"><a href="#" class="footer-bottom-link">Terms and Condition</a></li>
+                    <li class="footer-bottom-item"><a href="#" class="footer-bottom-link">Site Map</a></li>
+                </ul>
+                <p class="footer-copy">Copyright &copy; 2024 Pixmart. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
